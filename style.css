@@ -1,0 +1,188 @@
+:root{
+	--primary-color: #EB1CCC;
+	--secondary-color: #95989A;
+	--secondary-color: #95989A;
+	--primary-text-color: #FFF;
+	--secondary-text-color: #000;
+	--tertiary-text-color: #5d5d5d;
+}
+
+body {
+	padding-bottom: 500px;
+}
+
+* {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Cabeçalho */
+
+#evento-descricao {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/imagens/fundo.png');
+	height: 85vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: var(--primary-text-color);
+}
+
+#evento-aviso h2, #evento-aviso .evento-data {
+	color: var(--primary-color);
+}
+
+#evento-aviso h2 {
+	font-size: 3em;
+	margin-bottom: 1em;
+}
+
+#evento-aviso .evento-sobre {
+	font-size: 2em;
+	text-transform: uppercase;
+	max-width: 350px;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+#evento-aviso p {
+	font-size: 1.2em;
+	margin-bottom: 0.3em;
+}
+
+#evento-aviso .evento-data {
+	font-weight: bold;
+}
+
+#formulario-cadastro {
+	background-color: var(--secondary-color);
+	padding: 2em;
+	max-width: 22%;
+}
+
+#formulario-cadastro p{
+	font-size: 1.5em;
+	color: var(--secondary-text-color);
+	margin-bottom: 1em;
+}
+
+.campo-form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0.8em;
+}
+
+.campo-form label{
+	color: var(--tertiary-text-color);
+	margin-bottom: 0.3em;
+	font-weight: bold;
+}
+
+.campo-form input, .campo-form select{
+	padding: 4px 8px;
+	border-radius: 5px;
+	transition: .4s;
+	outline: none;
+}
+
+.campo-form input:focus, .campo-form select:focus{
+	border-color: var(--primary-color);
+}
+
+.botao {
+	background-color: var(--primary-color);
+	opacity: 0.8;
+	color: var(--primary-text-color);
+	width: 100%;
+	padding: 12px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.botao:hover {
+	opacity: 1;
+}
+
+/* Seção */
+
+#key-benefits h2{
+	background-color: var(--secondary-color);
+	text-align: center;
+	padding: 2em;
+	font-weight: 500;
+}
+
+#benefits {
+	display: flex;
+	justify-content: space-around;
+	padding: 4em;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.benefit {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	max-width: 20%;
+	color: var(--tertiary-text-color);
+}
+
+#benefit .benefit-img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-size: cover;
+	background-position: center;
+}
+
+#benefit-1 {
+	background-image: url(/imagens/imagem1.png);
+}
+
+#benefit-2 {
+	background-image: url(/imagens/imagem1.png);
+}
+
+#benefit-3 {
+	background-image: url(/imagens/imagem1.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 450px) {
+
+}
