@@ -1,6 +1,6 @@
 # LANDING PAGE HTML e CSS
-LANDING PAGE HTML e CSS
+LANDING PAGE HTML e CSS Responsivo
 
-Landing Page simples utilizando HTML e CSS, baseado nas aulas do Matheus Battisti.
+Landing Page simples utilizando HTML e CSS, com responsividade.
 
-Update 3: Estrutura pronta. Ainda necessario vários ajustes e responsividade.
+Update 4: Adicionado responsividade.
