@@ -2,6 +2,7 @@
 LANDING PAGE HTML e CSS Responsivo
 
 Landing Page simples utilizando HTML e CSS, com responsividade.
+
 Link: https://fabricio-willans-97.github.io/LANDING_PAGE_HTML_CSS/
 
 Update 4: Adicionado responsividade.
