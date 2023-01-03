@@ -1,7 +1,7 @@
 :root{
 	--primary-color: #EB1CCC;
 	--secondary-color: #95989A;
-	--secondary-color: #95989A;
+	--tertiary-color: #1485d1;
 	--primary-text-color: #FFF;
 	--secondary-text-color: #000;
 	--tertiary-text-color: #5d5d5d;
@@ -21,7 +21,7 @@ body {
 /* Cabeçalho */
 
 #evento-descricao {
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("imagens/imagem-teste.jpg");
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("imagens/imagem-react.jpg") center;
 	height: 85vh;
 	display: flex;
 	justify-content: space-around;
@@ -121,6 +121,10 @@ body {
 	margin: 0 auto;
 }
 
+#benefit p {
+	width: 80%;
+}
+
 .benefit {
 	display: flex;
 	flex-direction: column;
@@ -139,20 +143,20 @@ body {
 }
 
 #benefit-1 {
-	background-image: url("imagens/imagem-teste.jpg");
+	background-image: url("imagens/imagem-html.jpg");
 }
 
 #benefit-2 {
-	background-image: url("imagens/imagem-teste.jpg");
+	background-image: url("imagens/imagem-css.jpg");
 }
 
 #benefit-3 {
-	background-image: url("imagens/imagem-teste.jpg");
+	background-image: url("imagens/imagem-js.jpg");
 }
 
 
 #location {
-	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("imagens/imagem-teste.jpg");
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("imagens/wallpaper-city.jpg") center;
 	height: 400px;
 	background-size: cover;
 	background-position: cover;
@@ -192,6 +196,7 @@ body {
 
 #details {
 	width: 80%;
+	padding-top: 2em;
 	margin: 0 auto;
 }
 
@@ -211,11 +216,6 @@ body {
 	margin-bottom: 1em;
 	font-size: 2em;
 	font-weight: 500;
-}
-
-#detail-1 h3 {
-	margin-bottom: 3em;
-	font-weight: 700;
 }
 
 .detail-description {
@@ -287,6 +287,115 @@ body {
 
 /*RESPONSIVIDADE*/
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
 
+	#evento-descricao {
+		flex-direction: column;
+		height: auto;
+	}
+
+	#evento-aviso h2{
+		font-size: 2.5em;
+		text-align: center;
+		padding: 0.5em;
+	}
+
+	#evento-aviso .evento-sobre {
+		font-size: 1.5em;
+	}
+
+	#evento-aviso {
+		padding: 2em;
+		width: 80%;
+	}
+
+	#formulario-cadastro {
+		max-width: 70%;
+		margin-bottom: 2em;
+	}
+
+	#benefits {
+		flex-direction: column;
+		align-items: center;
+		width: auto;
+		padding: 2em;
+	}
+
+	#benefit {
+		max-width: 100%;
+		margin-bottom: 2em;
+	}
+
+	#benefit p {
+		width: 100%;
+	}
+
+	#benefit .benefit-img {
+		width: 100%;
+		height: 250px;
+		border-radius: 0%;
+		margin-bottom: 2em;
+	}
+
+	#location {
+		flex-direction: column;
+		height: auto;
+		text-align: center;
+		padding: 2em 0;
+	}
+
+	#address {
+		order: 2;
+		flex-direction: column;
+		max-width: 100%;
+	}
+
+	#address i {
+		margin: .3em 0;
+	}
+
+	#about-location {
+		order: 1;
+		max-width: 100%;
+	}
+
+	#about-location h3 {
+		margin-bottom: 0;
+	}
+
+	#about-location p {
+		display: none;
+	}
+
+	.detail {
+		flex-direction: column;
+		margin-bottom: 0.5em;
+		gap: 0;
+	}
+
+	.detail img {
+		width: 100%;
+	}
+
+	.detail-description {
+		padding: 0;
+		padding-bottom: 2em;
+		padding-top: 1em;
+	}
+
+	#detail-2 img {
+		order: 1;
+	}
+
+	#detail-2 .detail-description {
+		order: 2;
+	}
+
+	#cta {
+		text-align: center;
+	}
+
+	#cta .botao{
+		width: 80%;
+	}
 }
